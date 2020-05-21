@@ -15,7 +15,7 @@ const Profile = (props) => {
                 <h1>{name}</h1>
                 <h3>Email: {email}</h3>
                 <h4>Phone: {phone}</h4>
-                <h4>Address: {address}</h4>
+                <h4>City: {address.city}</h4>
                 <h4 >Annual Income: ${income}</h4>
                 <button onClick = {() => props.eventHandler(props.user)} className = "add-btn">add friend {plusIcon}</button>
             </div>
