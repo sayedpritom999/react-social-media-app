@@ -1,0 +1,32 @@
+.profile-container {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.profile-picture {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 150px;
+    /* border: 2px solid lightgray; */
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.name {
+    color: rgb(67, 67, 230);
+}
+
+.add-btn {
+    color: white;
+    background-color: rgb(67, 67, 230);
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

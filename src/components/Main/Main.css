@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 70%;
+    margin-right: 20px;
+}
